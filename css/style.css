@@ -1,4 +1,4 @@
-:root{--accent:#00bcd4}
+:root{--accent:#7cb342}
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;font-family:'Press Start 2P',monospace;color:#fff}
 body{background: url('../bg.png') top left repeat;}
