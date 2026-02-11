@@ -18,6 +18,6 @@
 11. The prize pool is $175 prize pool:
  - $100 for 1st place
  - $50 for 2nd place
- - $25 for 4rd place
+ - $25 for 3rd place
 Contact me in Discord if needed: senjey
 
