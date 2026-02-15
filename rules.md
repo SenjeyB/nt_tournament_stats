@@ -8,7 +8,7 @@
  
 # Speedrun Rules:
 5. Use `ntversus mod` mod.
-6. For tournment stage 1 use `derbybo5` preset. For other ones use `derbybo7`. Please refer to the pinned guide in the channel.
+6. For tournment Round 1, Loser Bracket Round 1 and Round 2 use `derbybo5` preset. For other ones use `derbybo7`. Please refer to the pinned guide in the channel.
 7. Each round players must play a character that they have not played in that match.
 8. The round ends when one of the players reaches the goal of the round.
 9. Proto Chests and the use of starting loadouts are prohibited.
