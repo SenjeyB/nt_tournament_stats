@@ -3,8 +3,8 @@ let matches = []
 
 async function loadData(){
   try{
-    participants = await fetch('participants.json').then(r=>r.json())
-    matches = await fetch('matches.json').then(r=>r.json())
+    participants = await fetch('participants.json?_=' + Date.now()).then(r=>r.json())
+    matches = await fetch('matches.json?_=' + Date.now()).then(r=>r.json())
     renderParticipants()
   }catch(e){
     console.error('Failed to load data', e)

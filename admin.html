@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin — Wasteland Derby</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body{overflow-y:auto}
+    .admin-wrap{max-width:960px;margin:0 auto;padding:16px}
+    .admin-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+    .admin-bar button{font-family:'Press Start 2P',monospace;font-size:11px;padding:8px 14px}
+    .btn-danger{background:#d9534f;color:#fff}
+    .btn-secondary{background:#555;color:#fff}
+    .btn-export{background:var(--accent);color:#000}
+    .match-card{background:rgba(0,0,0,0.55);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:14px;margin-bottom:14px;position:relative}
+    .match-card-header{display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;margin-bottom:10px}
+    .field{display:flex;flex-direction:column;gap:4px}
+    .field label{font-size:9px;color:#aaa}
+    .field input,.field select{font-family:'Press Start 2P',monospace;font-size:10px;padding:6px;background:#1a1a1a;border:1px solid #444;border-radius:4px;color:#fff}
+    .field input:focus,.field select:focus{border-color:var(--accent);outline:none}
+    .field input[type="number"]{width:70px}
+    .field .short{width:100px}
+    .field .medium{width:140px}
+    .field select{min-width:160px}
+    .delete-match{position:absolute;right:10px;top:10px;background:transparent;color:#f66;font-size:16px;border:none;cursor:pointer;padding:4px 8px;font-family:'Press Start 2P',monospace}
+    .delete-match:hover{color:#f00}
+    .rounds-section{margin-top:10px;border-top:1px solid rgba(255,255,255,0.06);padding-top:10px}
+    .rounds-section h4{font-size:10px;margin:0 0 8px;color:#aaa;display:flex;align-items:center;gap:10px}
+    .round-edit{display:flex;gap:8px;align-items:flex-start;padding:8px;background:rgba(255,255,255,0.02);border-radius:6px;margin-bottom:8px;flex-wrap:wrap}
+    .round-edit .round-label{font-size:11px;min-width:30px;padding-top:4px;color:var(--accent)}
+    .char-picker{display:flex;flex-wrap:wrap;gap:4px;max-width:280px}
+    .char-picker img{height:32px;cursor:pointer;border:2px solid transparent;border-radius:4px;opacity:0.5;transition:all .15s}
+    .char-picker img:hover{opacity:0.8;border-color:#888}
+    .char-picker img.selected{opacity:1;border-color:var(--accent)}
+    .winner-select{display:flex;gap:6px;align-items:center;margin-left:8px}
+    .winner-select label{font-size:9px;cursor:pointer;display:flex;align-items:center;gap:4px}
+    .winner-select input[type="radio"]{accent-color:var(--accent);cursor:pointer}
+    .delete-round{background:transparent;color:#f66;border:none;cursor:pointer;font-size:14px;padding:2px 6px;font-family:'Press Start 2P',monospace}
+    .delete-round:hover{color:#f00}
+    .player-side{display:flex;flex-direction:column;gap:4px}
+    .player-side .side-label{font-size:9px;color:#aaa}
+    .vs-col{display:flex;align-items:center;font-size:12px;padding-top:16px;color:#666}
+    .score-field{width:80px}
+    .toast{position:fixed;bottom:20px;right:20px;background:var(--accent);color:#000;padding:10px 16px;border-radius:6px;font-family:'Press Start 2P',monospace;font-size:10px;opacity:0;transition:opacity .3s;pointer-events:none;z-index:999}
+    .toast.show{opacity:1}
+    .match-card.collapsed .rounds-section{display:none}
+    .match-card.collapsed .match-card-header{margin-bottom:0}
+    .collapse-btn{background:transparent;border:none;color:var(--accent);cursor:pointer;font-size:14px;padding:2px 8px;font-family:'Press Start 2P',monospace}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Match Editor</h1>
+  </header>
+  <main class="admin-wrap">
+    <div class="admin-bar">
+      <button class="btn-secondary" onclick="loadFromFile()">Load File</button>
+      <button class="btn-export" onclick="saveJSON()">Save</button>
+      <button class="btn-export" onclick="addMatch()">+ Match</button>
+      <button class="btn-secondary" onclick="copyJSON()">Copy JSON</button>
+      <button class="btn-secondary" onclick="autoScore()">Auto-Score All</button>
+    </div>
+    <div id="matchList"></div>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="js/admin.js?v=5"></script>
+</body>
+</html>
