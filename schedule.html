@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Register — Nuclear Throne: Wasteland Derby</title>
+  <title>Schedule — Nuclear Throne: Wasteland Derby</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,21 +12,22 @@
     <h1>Nuclear Throne: Wasteland Derby</h1>
     <nav class="topnav">
       <a href="index.html">Participants</a>
+      <a href="schedule.html">Schedule</a>
       <a href="brackets.html">Bracket</a>
       <a href="rules.html">Rules</a>
-      <a href="register.html">Sign Up</a>
       <a href="https://discord.gg/nt" target="_blank" rel="noopener noreferrer">Discord</a>
       <a class="broadcast" href="https://www.twitch.tv/senjeyb" target="_blank" rel="noopener noreferrer">Broadcasting here</a>
     </nav>
   </header>
 
   <main class="container">
-    <section class="details">
-      <h2>Registration</h2>
-      <div class="register">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqaKps4CAF35qUMJWr0-zO54sLjsOhbQvz73bo-mTjq36GNw/viewform?embedded=true" width="100%" height="1014" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      </div>
+    <section class="details schedule-section">
+      <h2>Schedule</h2>
+      <div id="scheduleList"></div>
     </section>
   </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/schedule.js"></script>
 </body>
 </html>
