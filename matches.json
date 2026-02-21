@@ -205,7 +205,30 @@
     "date": "Feb 21",
     "time": "16:45",
     "player1": "alyssa",
-    "player2": "Nirvanchik"
+    "player2": "Nirvanchik",
+    "score": "3 - 1",
+    "rounds": [
+      {
+        "player1Char": "yv.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "yv.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "fish.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "chicken.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 16,
