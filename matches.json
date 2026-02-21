@@ -235,14 +235,42 @@
     "date": "Feb 21",
     "time": "17:30",
     "player1": "Toxic664",
-    "player2": "Winner 7"
+    "player2": "Senjjjbay!",
+    "score": "2 - 3",
+    "rounds": [
+      {
+        "player1Char": "plant.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "robot.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "fish.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "crystal.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "horror.png",
+        "player2Char": "horror.png",
+        "winner": "player2"
+      }
+    ]
   },
   {
     "matchNumber": 14,
     "date": "Feb 21",
     "time": "18:15",
     "player1": "ryguy65",
-    "player2": "Winner 5"
+    "player2": "alyssa"
   },
   {
     "matchNumber": 3,
@@ -255,7 +283,7 @@
     "matchNumber": 10,
     "date": "Feb 21",
     "time": "19:45",
-    "player1": "Loser 2",
+    "player1": "Trickyy",
     "player2": "Loser 3"
   },
   {
