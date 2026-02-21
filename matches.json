@@ -12,7 +12,29 @@
     "date": "Feb 21",
     "time": "14:30",
     "player1": "Bobot roi",
-    "player2": "Trickyy"
+    "player2": "Trickyy",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "plant.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "steroids.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "eyes.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "eyes.png",
+        "player2Char": "crystal.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 6,
