@@ -5,7 +5,7 @@
     "time": "10:15",
     "player1": "BunnyRogue0207",
     "player2": "SULFUR",
-    "score": "4 - 0"
+    "score": "3 - 0"
   },
   {
     "matchNumber": 2,
@@ -20,14 +20,37 @@
     "time": "11:15",
     "player1": "Dagi",
     "player2": "Happytube",
-    "score": "4 - 0"
+    "score": "3 - 0"
   },
   {
     "matchNumber": 15,
     "date": "Feb 21",
     "time": "12:00",
     "player1": "SPC",
-    "player2": "Winner 6"
+    "player2": "Dagi",
+    "score": "1 - 3",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "eyes.png",
+        "player2Char": "plant.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "horror.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "eyes.png",
+        "winner": "player2"
+      }
+    ]
   },
   {
     "matchNumber": 9,
