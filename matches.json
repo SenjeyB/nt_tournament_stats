@@ -320,7 +320,25 @@
     "date": "Feb 21",
     "time": "19:45",
     "player1": "Trickyy",
-    "player2": "Loser 3"
+    "player2": "Sopa",
+    "score": "3 - 0",
+    "rounds": [
+      {
+        "player1Char": "plant.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "yv.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "crystal.png",
+        "player2Char": "eyes.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 8,
