@@ -693,6 +693,34 @@
     "date": "Feb 22",
     "time": "20:00",
     "player1": "Trickyy",
-    "player2": "Squill"
+    "player2": "Squill",
+    "score": "4 - 1",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "yv.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "plant.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "crystal.png",
+        "player2Char": "rebel.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      }
+    ]
   }
 ]
