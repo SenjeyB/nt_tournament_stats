@@ -378,7 +378,30 @@
     "date": "Feb 22",
     "time": "11:00",
     "player1": "BunnyRogue0207",
-    "player2": "Master Sparky"
+    "player2": "Master Sparky",
+    "score": "1 - 3",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "yv.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "rogue.png",
+        "player2Char": "yv.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "robot.png",
+        "winner": "player2"
+      }
+    ]
   },
   {
     "matchNumber": 33,
