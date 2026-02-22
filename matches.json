@@ -434,7 +434,30 @@
     "date": "Feb 22",
     "time": "09:50",
     "player1": "SPC",
-    "player2": "Nirvanchik"
+    "player2": "Nirvanchik",
+    "score": "4 - 0",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "crystal.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "eyes.png",
+        "player2Char": "yv.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "horror.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 19,
