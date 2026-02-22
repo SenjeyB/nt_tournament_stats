@@ -443,7 +443,30 @@
     "date": "Feb 22",
     "time": "12:55",
     "player1": "Toxic664",
-    "player2": "SULFUR"
+    "player2": "SULFUR",
+    "score": "4 - 0",
+    "rounds": [
+      {
+        "player1Char": "plant.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "chicken.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 12,
