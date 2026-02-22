@@ -408,7 +408,35 @@
     "date": "Feb 22",
     "time": "11:45",
     "player1": "Dagi",
-    "player2": "Senjjjbay!"
+    "player2": "Senjjjbay!",
+    "score": "4 - 1",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "plant.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "robot.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "eyes.png",
+        "player2Char": "crystal.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 24,
