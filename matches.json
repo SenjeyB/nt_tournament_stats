@@ -388,7 +388,7 @@
       },
       {
         "player1Char": "plant.png",
-        "player2Char": "yv.png",
+        "player2Char": "plant.png",
         "winner": "player2"
       },
       {
@@ -508,28 +508,85 @@
     "date": "Feb 22",
     "time": "15:00",
     "player1": "Plev",
-    "player2": "Maria0207"
+    "player2": "Maria0207",
+    "score": "0 - 3"
   },
   {
     "matchNumber": 26,
     "date": "Feb 22",
     "time": "15:45",
     "player1": "Haru Urara",
-    "player2": "HAHAdvocate"
+    "player2": "HAHADvokat",
+    "score": "2 - 4",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "plant.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "eyes.png",
+        "player2Char": "eyes.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "yv.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "horror.png",
+        "player2Char": "horror.png",
+        "winner": "player2"
+      }
+    ]
   },
   {
     "matchNumber": 31,
     "date": "Feb 22",
     "time": "16:55",
-    "player1": "Winner 11",
-    "player2": "Winner 12"
+    "player1": "Maria0207",
+    "player2": "Mellie",
+    "score": "4 - 0",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "yv.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "robot.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 32,
     "date": "Feb 22",
     "time": "18:05",
     "player1": "ryguy65",
-    "player2": "Winner 13"
+    "player2": "Master Sparky"
   },
   {
     "matchNumber": 23,
