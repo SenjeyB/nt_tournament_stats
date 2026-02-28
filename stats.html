@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Statistics - Nuclear Throne: Wasteland Derby</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Statistics</h1>
+      <nav class="topnav">
+        <a href="index.html">Participants</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="brackets.html">Bracket</a>
+        <a href="stats.html">Statistics</a>
+        <a href="rules.html">Rules</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="details">
+        <div style="display:flex;gap:12px;align-items:center;margin-bottom:12px;flex-wrap:wrap;">
+          <label for="statSelect">Choose statistic:</label>
+          <select id="statSelect"></select>
+          <label for="playerFilter">Player (optional):</label>
+          <input id="playerFilter" placeholder="player name" />
+          <label for="charCategorySelect" id="charCategoryLabel" style="display:none;">Category:</label>
+          <select id="charCategorySelect" style="display:none;">
+            <option value="All">All</option>
+            <option value="Any%">Any%</option>
+            <option value="Captain">Captain</option>
+            <option value="All Bosses">All Bosses</option>
+          </select>
+          <button id="refreshBtn">Refresh</button>
+        </div>
+        <div id="statOutput">Loading...</div>
+      </section>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/stats.js" defer></script>
+  </body>
+</html>
