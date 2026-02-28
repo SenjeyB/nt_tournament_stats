@@ -838,7 +838,40 @@
     "date": "Feb 22",
     "time": "15:50",
     "player1": "Dagi",
-    "player2": "Temple"
+    "player2": "Temple",
+    "score": "2 - 4",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "plant.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "robot.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "eyes.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "eyes.png",
+        "player2Char": "fish.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "horror.png",
+        "player2Char": "horror.png",
+        "winner": "player2"
+      }
+    ]
   },
   {
     "matchNumber": 29,
