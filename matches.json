@@ -878,7 +878,45 @@
     "date": "Feb 28",
     "time": "17:00",
     "player1": "Toxic664",
-    "player2": "SPC"
+    "player2": "SPC",
+    "score": "3 - 4",
+    "rounds": [
+      {
+        "player1Char": "plant.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "eyes.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "robot.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "eyes.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "plant.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "horror.png",
+        "player2Char": "horror.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "yv.png",
+        "winner": "player2"
+      }
+    ]
   },
   {
     "matchNumber": 35,
