@@ -804,7 +804,34 @@
     "date": "Feb 22",
     "time": "14:40",
     "player1": "BunnyRogue0207",
-    "player2": "mr. Bub"
+    "player2": "mr. Bub",
+    "score": "4 - 1",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "plant.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      },
+      {
+        "player2Char": "eyes.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "rogue.png",
+        "player2Char": "yc.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 42,
