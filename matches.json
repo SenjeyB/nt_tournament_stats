@@ -1226,6 +1226,43 @@
     "date": "Mar 1",
     "time": "21:00",
     "player1": "Dagi",
-    "player2": "Mellie"
+    "player2": "Mellie",
+    "score": "4 - 3",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "plant.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "robot.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "fish.png",
+        "player2Char": "fish.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "eyes.png",
+        "player2Char": "eyes.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "horror.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "horror.png",
+        "winner": "player1"
+      }
+    ]
   }
 ]
