@@ -114,7 +114,7 @@
     "matchNumber": 1,
     "date": "Feb 21",
     "time": "15:15",
-    "player1": "HAHADvokat",
+    "player1": "HAHAdvokat",
     "player2": "Plev",
     "score": "1 - 3",
     "rounds": [
@@ -516,7 +516,7 @@
     "date": "Feb 22",
     "time": "15:45",
     "player1": "Haru Urara",
-    "player2": "HAHADvokat",
+    "player2": "HAHAdvokat",
     "score": "2 - 4",
     "rounds": [
       {
@@ -980,5 +980,40 @@
         "winner": "player1"
       }
     ]
+  },
+  {
+    "matchNumber": 30,
+    "date": "Mar 1",
+    "time": "14:00",
+    "player1": "Trickyy",
+    "player2": "HAHAdvokat"
+  },
+  {
+    "matchNumber": 36,
+    "date": "Mar 1",
+    "time": "15:10",
+    "player1": "Trickyy",
+    "player2": "Winner 30"
+  },
+  {
+    "matchNumber": 37,
+    "date": "Mar 1",
+    "time": "16:20",
+    "player1": "Senjjjbay!",
+    "player2": "Plev"
+  },
+  {
+    "matchNumber": 346,
+    "date": "Mar 1",
+    "time": "17:30",
+    "player1": "Temple",
+    "player2": "Maria0207"
+  },
+  {
+    "matchNumber": 28,
+    "date": "Mar 1",
+    "time": "18:40",
+    "player1": "alyssa",
+    "player2": "BunnyRogue0207"
   }
 ]
