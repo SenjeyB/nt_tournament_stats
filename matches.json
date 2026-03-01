@@ -1026,7 +1026,40 @@
     "date": "Mar 1",
     "time": "15:10",
     "player1": "Trickyy",
-    "player2": "ryguy65"
+    "player2": "ryguy65",
+    "score": "2 - 4",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "plant.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "robot.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "crystal.png",
+        "player2Char": "fish.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "crystal.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "horror.png",
+        "player2Char": "horror.png",
+        "winner": "player2"
+      }
+    ]
   },
   {
     "matchNumber": 37,
