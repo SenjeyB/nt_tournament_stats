@@ -986,14 +986,47 @@
     "date": "Mar 1",
     "time": "14:00",
     "player1": "Trickyy",
-    "player2": "HAHAdvokat"
+    "player2": "HAHAdvokat",
+    "score": "4 - 2",
+    "rounds": [
+      {
+        "player1Char": "steroids.png",
+        "player2Char": "steroids.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "plant.png",
+        "player2Char": "yv.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "robot.png",
+        "player2Char": "eyes.png",
+        "winner": "player2"
+      },
+      {
+        "player1Char": "crystal.png",
+        "player2Char": "fish.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "yv.png",
+        "player2Char": "plant.png",
+        "winner": "player1"
+      },
+      {
+        "player1Char": "horror.png",
+        "player2Char": "crystal.png",
+        "winner": "player1"
+      }
+    ]
   },
   {
     "matchNumber": 36,
     "date": "Mar 1",
     "time": "15:10",
     "player1": "Trickyy",
-    "player2": "Winner 30"
+    "player2": "ryguy65"
   },
   {
     "matchNumber": 37,
