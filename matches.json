@@ -1261,6 +1261,7 @@
       },
       {
         "player1Char": "horror.png",
+        "player2Char": "yv.png",
         "winner": "player1"
       }
     ]
